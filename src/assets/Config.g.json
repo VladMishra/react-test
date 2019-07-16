@@ -1,0 +1,19 @@
+{
+  "version": "0.0.1",
+  "environment": "dev",
+  "gw": {
+    "path": "/mocks",
+    "endpoints": {
+      "users": "/getUsers.json",
+      "getGraphUsers": "/getUserGraph.json",
+      "getAllowRegister": "/getTeanant.json",
+      "putAllowRegister": "/putTeanant.json"
+    },
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "searchKeyEnterDelay": 2000,
+    "showErrorTime": 5000
+  },
+  "host": "http://localhost:1000"
+}

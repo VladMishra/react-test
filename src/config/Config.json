@@ -1,0 +1,17 @@
+{
+  "version":"0.0.1",
+  "gw": {
+    "path": "/api/admin",
+    "endpoints": {
+      "users": "/users",
+      "getGraphUsers": "/users/graph",
+      "getAllowRegister": "/Tenants/Info",
+      "putAllowRegister": "/Tenants"
+    },
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "searchKeyEnterDelay": 2000,
+    "showErrorTime": 5000
+  }
+}
